@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_venmo"
+            android:icon="@drawable/ic_action_money"
+            android:title="$23.65 in Venmo" />
+        <item
+            android:id="@+id/nav_listing"
+            android:icon="@drawable/ic_action_listing"
+            android:title="Current Listings" />
+        <item
+            android:id="@+id/nav_create_listing"
+            android:icon="@drawable/ic_action_add"
+            android:title="Create Listing" />
+        <item
+            android:id="@+id/nav_student_profile"
+            android:icon="@drawable/ic_action_profile"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_action_friends"
+            android:title="Friends" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_action_calendar"
+            android:title="Calendar" />
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_action_history"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_help"
+            android:icon="@drawable/ic_action_help"
+            android:title="Help" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>
